@@ -23,9 +23,9 @@
   padding: 0;
 }
 
-li,
-a,
-button {
+header li,
+header a,
+header button {
   text-decoration: none;
   color: black;
   font-family: "Montserrat", sans-serif;
@@ -37,8 +37,8 @@ header {
   display: flex;
   padding-left: 10%;
   padding-right: 10%;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid black;
@@ -61,7 +61,7 @@ header {
   text-decoration: underline;
 }
 
-button {
+header button {
   padding-top: 9px;
   padding-bottom: 9px;
   padding-left: 25px;
@@ -79,4 +79,63 @@ button {
 
 button:hover {
   background-color: rgba(25, 69, 105, 0.8);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.footer_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_links li {
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footer_links a:hover {
+  text-decoration: underline;
+  color: #5fa4a2;
+}
+
+footer li,
+footer a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+footer p {
+  align-self: center;
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.jira_link {
+  align-self: center;
+  color: #5fa4a2;
+  text-decoration: underline;
+}
+
+.jira_link:hover {
+  align-self: center;
+  color: #8fd4d1;
+  text-decoration: underline;
 }
