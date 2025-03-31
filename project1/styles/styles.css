@@ -15,4 +15,68 @@
     - What needs to be done: [Date]: [Change description]
 ============================================================
 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li,
+a,
+button {
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+header {
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.logo {
+  cursor: pointer;
+  height: 75px;
+  width: auto;
+}
+
+.nav_links li {
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav_links li a:hover {
+  color: #194569;
+  text-decoration: underline;
+}
+
+button {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: none;
+  border-radius: 50px;
+  background-color: rgba(25, 69, 105, 1);
+  color: whitesmoke;
+}
+
+.active {
+  color: rgba(25, 69, 105, 1);
+  text-decoration: underline;
+}
+
+button:hover {
+  background-color: rgba(25, 69, 105, 0.8);
+}
