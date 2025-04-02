@@ -90,6 +90,21 @@ h1 {
 }
 
 
+ 
+ dl {
+  margin: 0;
+  padding: 0;
+
+ }
+ dt {
+  font-weight: bold;
+}
+
+ dd {
+  margin-left: 20px;
+}
+
+
 
 footer {
   display: flex;
