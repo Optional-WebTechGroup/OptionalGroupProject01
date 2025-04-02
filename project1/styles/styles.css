@@ -102,6 +102,10 @@ h1 {
   margin-bottom: 10px;
 }
 
+#admin ul {
+  list-style-type: square; 
+  margin-left: 20px; 
+}
  
  dl {
   margin: 0;
