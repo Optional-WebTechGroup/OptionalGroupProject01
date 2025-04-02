@@ -126,6 +126,7 @@ h1 {
   width: auto;
   display: block;
   margin:auto;
+  border: inset 4px black; 
   }
 
 footer {
