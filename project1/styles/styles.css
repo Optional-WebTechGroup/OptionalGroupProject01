@@ -81,6 +81,16 @@ button:hover {
   background-color: rgba(25, 69, 105, 0.8);
 }
 
+main { 
+  background-color: #e3dac9;
+}
+
+h1 { 
+  text-align: center;
+}
+
+
+
 footer {
   display: flex;
   flex-direction: column;
@@ -139,3 +149,4 @@ footer p {
   color: #8fd4d1;
   text-decoration: underline;
 }
+
