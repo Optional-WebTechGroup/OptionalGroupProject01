@@ -166,7 +166,7 @@ footer a {
   font-size: 20px;
 }
 
-#groupMembers { 
+#groupMembers ul { 
   list-style: disc;
 }
 
