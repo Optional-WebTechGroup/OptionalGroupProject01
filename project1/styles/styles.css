@@ -108,7 +108,11 @@ h1 {
   margin-left: 20px;
 }
 
-
+#GroupPhoto {
+  cursor: pointer;
+  height: 300px;
+  width: auto;
+}
 
 footer {
   display: flex;
