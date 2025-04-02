@@ -166,6 +166,10 @@ footer a {
   font-size: 20px;
 }
 
+#groupMembers { 
+  list-style: disc;
+}
+
 footer p {
   align-self: center;
   text-decoration: none;
