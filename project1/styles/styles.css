@@ -120,7 +120,9 @@ h1 {
   cursor: pointer;
   height: 300px;
   width: auto;
-}
+  display: block;
+  margin:auto;
+  }
 
 footer {
   display: flex;
