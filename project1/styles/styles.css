@@ -41,7 +41,7 @@ header {
   padding-bottom: 10px;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px double black;
 }
 
 .logo {
@@ -81,15 +81,13 @@ button:hover {
   background-color: rgba(25, 69, 105, 0.8);
 }
 
-main { 
+main {
   background-color: #e3dac9;
 }
 
-h1 { 
+h1 {
   text-align: center;
 }
-
-
 
 footer {
   display: flex;
@@ -150,3 +148,20 @@ footer p {
   text-decoration: underline;
 }
 
+/* Forms Style */
+#apply_main {
+  background-color: #eaedf1;
+  color: #15181c;
+  padding: 0 10%;
+}
+
+#apply_main h1 {
+  font-size: 5em;
+  padding: 3%;
+}
+
+#dream_job {
+  background-image: linear-gradient(#79BF74, #176A8A);
+  color: transparent;
+  background-clip: text;
+}

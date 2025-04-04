@@ -45,18 +45,17 @@
         <a class="cta" href="mailto:info@canvas"><button>Email Us</button></a>
     </header>
 
-    <main>
-        <h1>Apply to your Dream Job</h1>
+    <main id="apply_main">
+        <h1>Apply to your <span id="dream_job">Dream Job</span></h1>
         <form action="https://mercury.swin.edu.au/it000000/formtest.php" method="post">
             <p><label for="reference_number">Job Reference Number: </label>
-                <select name="reference_number" id="reference_number" required="required">
+                <select name="reference_number" id="reference_number" required>
                     <option value="">Please Select</option>
-                    <option value="">#111111</option>
-                    <option value="">#222222</option>
-                    <option value="">#333333</option>
+                    <option value="PXUB6">PXUB6</option>
+                    <option value="5KC3U">5KC3U</option>
                 </select>
             </p>
-            <fieldset>
+            <!-- <fieldset>
                 <legend>Personal Information</legend>
                 <p><label for="first_name">First Name</label>
                     <input type="text" name="first_name" id="first_name" required>
@@ -67,7 +66,39 @@
                 <p><label for="date_of_birth">Date of Birth</label>
                     <input type="text" name="date_of_birth" id="date_of_birth" required>
                 </p>
-            </fieldset>
+                <p>Gender</p>
+                <label for="COS10011"><input type="radio" name="unit" id="COS10011" value="cos10011"
+                        required="required">Male</label>
+                <label for="COS60004"><input type="radio" name="unit" id="COS60004" value="COS60004">Female</label>
+                <label for="COS60007"><input type="radio" name="unit" id="COS60007" value="COS60007">Others</label>
+
+                <p><label for="street_address">Street Address</label>
+                    <input type="text" name="street_address" id="street_address" required>
+                </p>
+
+                <p><label for="suburb">Suburb / Town </label>
+                    <input type="text" name="suburb" id="suburb" required>
+                </p>
+                <p><label for="state">State: </label>
+                    <select name="state" id="state" required="required">
+                        <option value="">Please Select</option>
+                        <option value="">#111111</option>
+                        <option value="">#222222</option>
+                        <option value="">#333333</option>
+                    </select>
+                </p>
+
+                <p><label for="postcode">Postcode</label>
+                    <input type="text" name="postcode" id="postcode" required>
+                </p>
+                <p><label for="email_address">Email Address</label>
+                    <input type="text" name="email_address" id="email_address" required>
+                </p>
+                <p><label for="phone_number">Phone Number</label>
+                    <input type="text" name="phone_number" id="phone_number" required>
+                </p>
+            </fieldset> -->
+
         </form>
     </main>
 
