@@ -139,6 +139,14 @@ h1 {
   margin-left: 20px;
 }
 
+#InterestTable thead {
+   color: darkgreen;  
+}
+
+.MemberNames {
+  color: darkblue
+}
+
 #GroupPhoto {
   cursor: pointer;
   height: 300px;
