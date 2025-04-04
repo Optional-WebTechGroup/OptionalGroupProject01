@@ -96,7 +96,15 @@ main {
 
 h1 { 
   text-align: center;
+  
 }
+
+.PositionTopText {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 
 #admin h1 {
   text-align: center;
