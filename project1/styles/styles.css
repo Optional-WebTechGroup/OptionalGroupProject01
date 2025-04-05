@@ -103,25 +103,39 @@ h1 {
 
 .groupWrapper { 
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
   margin-bottom: 2rem;
   gap: 2rem;
 }
 
 .Grouptitle { 
-  max-width: 235px;
+  margin-bottom: 180px;
+  padding-right: 100px;
+  padding-left: 1.5%;
+  padding-bottom: 120px;
+  text-align: center;
+  background-color: aqua;
 }
 
 .GroupIDs {
-  max-width: 250px;
+  margin-bottom: 180px;
+  background-color: lightsalmon;
+  padding-bottom: 120px;
+  padding-right: 2.5%;
+  padding-left: 1.5%;
+  justify-content: center;
 }
 
 .MemberCont {
-  max-width: 500px;
  display: flex; 
- padding: 2.5%;
-}
+ background-color: lightseagreen;
+ max-width: 500px;
+  padding-right: 2.5%;
+ padding-left: 1.5%;
+ padding-bottom: 2.5%;
+ padding-top: 0%;
+ }
 
 .MemberCont h2 {
   max-width: 235px
