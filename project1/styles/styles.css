@@ -94,17 +94,46 @@ main {
   background-color: #e3dac9;
 }
 
-h1 { 
+h1 {
   text-align: center;
-  
+  max-width: 150px;
+  margin: 0 auto;
 }
 
-.PositionTopText {
+
+.groupWrapper { 
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  gap: 2rem;
 }
 
+.Grouptitle { 
+  max-width: 235px;
+}
+
+.GroupIDs {
+  max-width: 250px;
+}
+
+.MemberCont {
+  max-width: 500px;
+ display: flex; 
+ padding: 2.5%;
+}
+
+.MemberCont h2 {
+  max-width: 235px
+}
+
+.MemberCont dt {
+  max-width: 235px
+}
+
+.MemberCont dd {
+  max-width: 400px
+}
 
 #admin h1 {
   text-align: center;
