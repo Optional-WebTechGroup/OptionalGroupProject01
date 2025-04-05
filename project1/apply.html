@@ -37,16 +37,143 @@
                 class="logo"></a>
         <nav class="nav">
             <ul class="nav_links">
-                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="jobs.html">Jobs</a></li>
-                <li><a href="apply.html">Apply</a></li>
+                <li><a href="apply.html" class="active">Apply</a></li>
             </ul>
         </nav>
         <a class="cta" href="mailto:info@canvas"><button>Email Us</button></a>
     </header>
 
-    <main></main>
+    <main id="apply_main">
+        <h1>Apply to your <span id="dream_job">Dream Job</span></h1>
+        <form action="https://mercury.swin.edu.au/it000000/formtest.php" method="post">
+            <p class="center"><label for="reference_number">Job Reference Number: </label>
+                <select name="reference_number" id="reference_number" required>
+                    <option value="">Please Select</option>
+                    <option value="PXUB6">PXUB6</option>
+                    <option value="5KC3U">5KC3U</option>
+                </select>
+            </p>
+            <hr>
+            <section>
+                <h3>Personal Information</h3>
+                <p>Fields marked with * are required.</p>
+
+                <div class="row">
+                    <div class="question">
+                        <label for="first_name">First name*</label>
+                        <input type="text" name="first_name" id="first_name" required maxlength="20">
+                    </div>
+                    <div class="question">
+                        <label for="last_name">Last name*</label>
+                        <input type="text" name="last_name" id="last_name" required maxlength="20">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="question">
+                        <label for="birthdate">Birthdate*</label>
+                        <input type="text" name="birthdate" id="birthdate" required
+                            pattern="^(0[1-9]|[12][0-9]|3[01])\/(0[1-9]|1[12])\/(\d){4}$">
+                    </div>
+
+                    <fieldset class="question">
+                        <legend>Gender*</legend>
+                        <ul>
+                            <li>
+                                <input type="radio" id="male" name="gender" value="male">
+                                <label for="male">Male</label>
+
+                            </li>
+                            <li>
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female">Female</label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </div>
+
+                <div class="row">
+                    <div class="question">
+                        <label for="street_address">Street Address*</label>
+                        <input type="text" name="street_address" id="street_address" required maxlength="40">
+                    </div>
+                    <div class="question">
+                        <label for="suburb">Suburb/Town*</label>
+                        <input type="text" name="suburb" id="suburb" required maxlength="40">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <p class="question"><label for="state">State*: </label>
+                        <select name="state" id="state" required>
+                            <option value="">Please Select</option>
+                            <option value="VIC">Victoria</option>
+                            <option value="NSW">New South Wales</option>
+                            <option value="QLD">Queensland</option>
+                            <option value="NT">Northern Territory</option>
+                            <option value="WA">South Australia</option>
+                            <option value="SA">Western Australia</option>
+                            <option value="TAS">Tasmania</option>
+                            <option value="ACT">Australian Capital Territory</option>
+                        </select>
+                    </p>
+                    <div class="question">
+                        <label for="postcode">Postcode*</label>
+                        <input type="text" name="postcode" id="postcode" required minlength="4" maxlength="4"
+                            pattern="^(0[289][0-9]{2})|([1-9][0-9]{3})$">
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="question">
+                        <label for="email_address">Email Address*</label>
+                        <input type="text" name="email_address" id="email_address" required
+                            pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$">
+                    </div>
+                    <div class="question">
+                        <label for="phone_number">Phone Number*</label>
+                        <input type="text" name="phone_number" id="phone_number" required minlength="8" maxlength="12"
+                            pattern="^[0-9 ]{8,12}$">
+                    </div>
+                </div>
+
+
+                <div class="row">
+
+                    <div class="question">
+                        <p>Technical Skill:</p>
+                        <p>
+                            <input type="checkbox" name="technical_skills[]" id="python" value="python">
+                            <label for="python">Python</label>
+                            <input type="checkbox" name="technical_skills[]" id="java" value="java">
+                            <label for="java">Java</label>
+                            <input type="checkbox" name="technical_skills[]" id="assembly" value="assembly">
+                            <label for="assembly">Assembly</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="technical_skills[]" id="networking" value="networking">
+                            <label for="networking">Networking</label>
+                            <input type="checkbox" name="technical_skills[]" id="switching" value="switching">
+                            <label for="Switching">Switching</label>
+                            <input type="checkbox" name="technical_skills[]" id="routing" value="routing">
+                            <label for="Routing">Routing</label>
+                        </p>
+                    </div>
+                    <div class="question">
+                        <label for="other_skills">Other Skills:</label>
+                        <textarea name="other_skills" id="other_skills"></textarea>
+                    </div>
+                </div>
+            </section>
+
+            <input type="submit" value="Submit Form">
+            <input type="reset" value="Reset Form">
+        </form>
+    </main>
 
     <footer>
         <div class="footer_nav">
