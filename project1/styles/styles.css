@@ -156,12 +156,21 @@ footer p {
 }
 
 #apply_main h1 {
-  font-size: 5em;
-  padding: 3%;
+  font-size: 4em;
+  padding-top: 20px;
 }
 
 #dream_job {
   background-image: linear-gradient(#79BF74, #176A8A);
   color: transparent;
   background-clip: text;
+}
+
+form {
+  font-size: 1.2em;
+}
+
+.center {
+  text-align: center;
+  padding: 2% 0;
 }
