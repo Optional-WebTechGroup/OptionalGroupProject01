@@ -24,13 +24,13 @@
 }
 
 body {
-  margin: 2rem;
-  outline: 2px solid green;
+  /* margin: 2rem;
+  outline: 2px solid green; */
 }
 
 ul {
   list-style-position: inside;
-} 
+}
 
 header li,
 header a,
@@ -96,12 +96,12 @@ main {
 
 h1 {
   text-align: center;
-  max-width: 150px;
-  margin: 0 auto;
+  /* max-width: 150px;
+  margin: 0 auto; */
 }
 
 
-.groupWrapper { 
+.groupWrapper {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
@@ -109,7 +109,7 @@ h1 {
   gap: 2rem;
 }
 
-.Grouptitle { 
+.Grouptitle {
   margin-bottom: 180px;
   padding-right: 100px;
   padding-left: 1.5%;
@@ -128,14 +128,14 @@ h1 {
 }
 
 .MemberCont {
- display: flex; 
- background-color: lightseagreen;
- max-width: 500px;
+  display: flex;
+  background-color: lightseagreen;
+  max-width: 500px;
   padding-right: 2.5%;
- padding-left: 1.5%;
- padding-bottom: 2.5%;
- padding-top: 0%;
- }
+  padding-left: 1.5%;
+  padding-bottom: 2.5%;
+  padding-top: 0%;
+}
 
 .MemberCont h2 {
   max-width: 235px
@@ -165,33 +165,34 @@ h1 {
 }
 
 #admin ul {
-  list-style-type: square; 
-  margin-left: 20px; 
+  list-style-type: square;
+  margin-left: 20px;
 }
 
 #admin ol {
-  margin-left: 20px; 
+  margin-left: 20px;
 }
 
 #admin h4 {
   text-decoration: underline;
 }
- 
- dl {
+
+dl {
   margin: 0;
   padding: 0;
 
- }
- dt {
+}
+
+dt {
   font-weight: bold;
 }
 
- dd {
+dd {
   margin-left: 20px;
 }
 
 #InterestTable thead {
-   color: darkgreen;  
+  color: darkgreen;
 }
 
 .MemberNames {
@@ -203,9 +204,9 @@ h1 {
   height: 300px;
   width: auto;
   display: block;
-  margin:auto;
-  border: inset 4px black; 
-  }
+  margin: auto;
+  border: inset 4px black;
+}
 
 footer {
   display: flex;
@@ -244,7 +245,7 @@ footer a {
   font-size: 20px;
 }
 
-#groupMembers ul { 
+#groupMembers ul {
   list-style: disc;
 }
 
