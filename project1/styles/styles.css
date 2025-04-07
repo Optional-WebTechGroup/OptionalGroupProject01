@@ -80,8 +80,7 @@ header {
 }
 
 .active {
-  color: var(--hightlight_color);
-  text-decoration: underline;
+  border-bottom: 5px solid #79BF74;
 }
 
 #cta:hover {
