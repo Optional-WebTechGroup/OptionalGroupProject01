@@ -100,53 +100,24 @@ h1 {
   margin: 0 auto; */
 }
 
-
-.groupWrapper {
+.Class_Details {
   display: flex;
   justify-content: space-around;
-  align-items: flex-start;
-  margin-bottom: 2rem;
-  gap: 2rem;
+  flex-direction: row-reverse;
+  margin-bottom: 50px;
 }
 
-.Grouptitle {
-  margin-bottom: 180px;
-  padding-right: 100px;
-  padding-left: 1.5%;
-  padding-bottom: 120px;
-  text-align: center;
-  background-color: aqua;
-}
-
-.GroupIDs {
-  margin-bottom: 180px;
-  background-color: lightsalmon;
-  padding-bottom: 120px;
-  padding-right: 2.5%;
-  padding-left: 1.5%;
-  justify-content: center;
-}
-
-.MemberCont {
+.Member_Details {
   display: flex;
-  background-color: lightseagreen;
-  max-width: 500px;
-  padding-right: 2.5%;
-  padding-left: 1.5%;
-  padding-bottom: 2.5%;
-  padding-top: 0%;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  margin-bottom: 50px;
 }
 
-.MemberCont h2 {
-  max-width: 235px
-}
-
-.MemberCont dt {
-  max-width: 235px
-}
-
-.MemberCont dd {
-  max-width: 400px
+.Member_Styles { 
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
 }
 
 #Jobs_main {
