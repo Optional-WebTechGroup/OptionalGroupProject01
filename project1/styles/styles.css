@@ -23,6 +23,11 @@
   padding: 0;
 }
 
+body {
+  background-color: #eaedf1;
+  color: #15181c;
+}
+
 ul {
   list-style-position: inside;
 }
@@ -38,6 +43,7 @@ header button {
 }
 
 header {
+  background-color: white;
   display: flex;
   padding: 10px 10%;
   justify-content: space-between;
@@ -78,10 +84,6 @@ header {
   opacity: 0.8;
 }
 
-main {
-  background-color: #e3dac9;
-}
-
 h1 {
   text-align: center;
 }
@@ -115,8 +117,6 @@ h1 {
 }
 
 #Jobs_main {
-  background-color: #e3fdf9;
-  color: #15181c;
   padding: 0 2%;
 }
 
@@ -211,20 +211,25 @@ table {
 
 th {
   font-weight: bold;
-  background-color: #e0e0e0; /* Light grey background for headings */
+  background-color: #e0e0e0;
+  /* Light grey background for headings */
 }
 
 td {
-  background-color: #f9f9f9; /* Light background for table cells */
+  background-color: #f9f9f9;
+  /* Light background for table cells */
   padding: 8px;
 }
 
 td:hover {
-  background-color: #d0ebff; /* Light blue on hover */
+  background-color: #d0ebff;
+  /* Light blue on hover */
 }
 
-th, td {
-  border: 1px solid #ccc; /* Optional border for visibility */
+th,
+td {
+  border: 1px solid #ccc;
+  /* Optional border for visibility */
 }
 
 /* Footer style */
