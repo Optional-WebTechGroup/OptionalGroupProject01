@@ -160,6 +160,8 @@ h1 {
   margin-bottom: 10px;
   text-decoration: underline;
   font-size: 2em;
+  font-family: serif;
+  font-variant: initial;
 }
 
 #admin h2 {
