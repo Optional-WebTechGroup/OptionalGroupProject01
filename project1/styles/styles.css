@@ -177,6 +177,28 @@ h1 {
   text-decoration: underline;
 }
 
+#Eco h2 {
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+#Eco p {
+  margin-bottom: 10px;
+}
+
+#Eco ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+#Eco ol {
+  margin-left: 20px;
+}
+
+#Eco h4 {
+  text-decoration: underline;
+}
+
 dl {
   margin: 0;
   padding: 0;
