@@ -70,7 +70,7 @@ header {
   text-decoration: underline;
 }
 
-header button {
+#cta {
   padding: 9px 25px;
   border: none;
   border-radius: 50px;
@@ -83,7 +83,7 @@ header button {
   text-decoration: underline;
 }
 
-button:hover {
+#cta:hover {
   background-color: rgba(25, 69, 105, 0.8);
 }
 
