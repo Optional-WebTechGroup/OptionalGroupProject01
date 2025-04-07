@@ -169,11 +169,11 @@
                 <div class="row">
                     <div class="question">
                         <label for="title">Title</label>
-                        <input type="text" name="title" id="title" maxlength="20">
+                        <input type="text" name="title" id="title">
                     </div>
                     <div class="question">
                         <label for="company">Company</label>
-                        <input type="text" name="company" id="company" maxlength="20">
+                        <input type="text" name="company" id="company">
                     </div>
                 </div>
                 <div class="row">
@@ -203,7 +203,47 @@
             </section>
             <hr>
             <section>
-
+                <h2>Education</h2>
+                <div class="row">
+                    <div class="question">
+                        <label for="institution">Institution</label>
+                        <input type="text" name="institution" id="institution">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="question">
+                        <label for="degree">Degree</label>
+                        <input type="text" name="degree" id="degree">
+                    </div>
+                    <div class="question">
+                        <label for="major">Major</label>
+                        <input type="text" name="major" id="major">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="question">
+                        <label for="education_description">Description</label>
+                        <textarea name="education_description" id="education_description" rows="5"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="question">
+                        <label for="education_from_date">From</label>
+                        <input type="date" name="experience_from_date" id="education_from_date">
+                    </div>
+                    <div class="question">
+                        <label for="education_to_date">To</label>
+                        <input type="date" name="education_to_date" id="education_to_date">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="question">
+                        <p><input type="checkbox" name="currently_attending" id="currently_attending"
+                                value="currently_attending">
+                            <label for="currently_attending">I currently attend</label>
+                        </p>
+                    </div>
+                </div>
             </section>
             <div class="row">
                 <input id="apply" type="submit" value="Apply">
