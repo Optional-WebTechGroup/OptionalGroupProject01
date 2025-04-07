@@ -102,11 +102,19 @@ h1 {
   margin-bottom: 50px;
 }
 
+.Tutor {
+  font-size: x-large;
+}
+
 .Member_Details {
   display: flex;
   justify-content: space-around;
   flex-direction: row-reverse;
   margin-bottom: 50px;
+}
+
+.GroupIDs {
+  font-size: large;
 }
 
 .Member_Styles {
@@ -204,6 +212,30 @@ dd {
   margin: auto;
   border: inset 4px black;
 }
+
+table {
+  text-align: center;
+  border-collapse: collapse;
+}
+
+th {
+  font-weight: bold;
+  background-color: #e0e0e0; /* Light grey background for headings */
+}
+
+td {
+  background-color: #f9f9f9; /* Light background for table cells */
+  padding: 8px;
+}
+
+td:hover {
+  background-color: #d0ebff; /* Light blue on hover */
+}
+
+th, td {
+  border: 1px solid #ccc; /* Optional border for visibility */
+}
+
 
 footer {
   display: flex;
