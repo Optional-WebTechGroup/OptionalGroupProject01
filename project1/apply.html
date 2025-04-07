@@ -81,17 +81,11 @@
 
                     <fieldset class="question">
                         <legend>Gender*</legend>
-                        <ul>
-                            <li>
-                                <input type="radio" id="male" name="gender" value="male">
-                                <label for="male">Male</label>
-
-                            </li>
-                            <li>
-                                <input type="radio" id="female" name="gender" value="female">
-                                <label for="female">Female</label>
-                            </li>
-                        </ul>
+                        <p> <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label>
+                        </p>
                     </fieldset>
                 </div>
 
@@ -145,7 +139,7 @@
                 <div class="row">
                     <div class="question">
                         <fieldset>
-                            <legend>Required Technical Skills</legend>
+                            <legend>Required Technical Skills*</legend>
                             <p>
                                 <input type="checkbox" name="technical_skills[]" id="python" value="python">
                                 <label for="python">Python</label>
@@ -171,8 +165,9 @@
                 </div>
             </section>
 
-            <input type="submit" value="Submit Form">
-            <input type="reset" value="Reset Form">
+            <div class="row">
+                <input id="apply" type="submit" value="Apply">
+            </div>
         </form>
     </main>
 

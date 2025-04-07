@@ -24,8 +24,8 @@
 }
 
 body {
-  margin: 2rem;
-  outline: 2px solid green;
+  /* margin: 2rem;
+  outline: 2px solid green; */
 }
 
 ul {
@@ -71,10 +71,7 @@ header {
 }
 
 header button {
-  padding-top: 9px;
-  padding-bottom: 9px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding: 9px 25px;
   border: none;
   border-radius: 50px;
   background-color: rgba(25, 69, 105, 1);
@@ -96,8 +93,6 @@ main {
 
 h1 {
   text-align: center;
-  /* max-width: 150px;
-  margin: 0 auto; */
 }
 
 .Class_Details {
@@ -114,7 +109,7 @@ h1 {
   margin-bottom: 50px;
 }
 
-.Member_Styles { 
+.Member_Styles {
   display: flex;
   justify-content: space-around;
   margin-bottom: 50px;
@@ -314,9 +309,33 @@ form {
 }
 
 form input,
-form select {
+form select,
+form textarea {
   margin-right: 5%;
   font-size: 1.1em;
+}
+
+form fieldset {
+  border: none;
+}
+
+form fieldset input[type="radio"],
+form fieldset input[type="checkbox"] {
+  margin-right: 0;
+}
+
+#apply {
+  padding: 9px 50px;
+  border: none;
+  border-radius: 20px;
+  background-color: #79BF74;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#apply:hover {
+  opacity: 0.75;
 }
 
 hr {
@@ -324,12 +343,12 @@ hr {
   margin-bottom: 10px;
 }
 
-form li {
-  list-style: none;
-}
-
 @media screen and (max-width: 700px) {
   .row {
     flex-direction: column;
+  }
+
+  header {
+    font-size: small;
   }
 }
