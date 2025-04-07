@@ -222,7 +222,7 @@ footer {
 
 .footer_links a:hover {
   text-decoration: underline;
-  color: #5fa4a2;
+  color: #79BF74;
 }
 
 footer li,
@@ -250,14 +250,12 @@ footer p {
 
 .jira_link {
   align-self: center;
-  color: #5fa4a2;
+  color: #79BF74;
   text-decoration: underline;
 }
 
 .jira_link:hover {
-  align-self: center;
-  color: #8fd4d1;
-  text-decoration: underline;
+  opacity: 0.8;
 }
 
 /* Forms Style */
@@ -335,26 +333,23 @@ hr {
   margin-bottom: 10px;
 }
 
-@media (max-width: 700px) {
+
+/* responsive design */
+@media (max-width: 755px) {
   .row {
+    flex-direction: column;
+  }
+
+  .footer_links li {
+    display: flex;
     flex-direction: column;
   }
 }
 
-/* responsive navbar */
 @media (max-width: 1005px) {
+
   .nav_links li {
     display: flex;
     flex-direction: column;
-  }
-
-  .logo {
-    height: 50px;
-  }
-
-  header li,
-  header a,
-  header button {
-    font-size: 1em;
   }
 }
