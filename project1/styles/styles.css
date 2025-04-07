@@ -17,6 +17,10 @@
 */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+:root {
+  --hightlight_color: #79BF74;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -64,7 +68,7 @@ header {
 }
 
 .nav_links li a:hover {
-  color: #79BF74;
+  color: var(--hightlight_color);
   text-decoration: underline;
 }
 
@@ -72,11 +76,11 @@ header {
   padding: 9px 25px;
   border: none;
   border-radius: 50px;
-  background-color: #79BF74;
+  background-color: var(--hightlight_color);
 }
 
 .active {
-  color: #79BF74;
+  color: var(--hightlight_color);
   text-decoration: underline;
 }
 
@@ -255,7 +259,7 @@ footer {
 
 #footer_links a:hover {
   text-decoration: underline;
-  color: #79BF74;
+  color: var(--hightlight_color);
 }
 
 footer a {
@@ -282,7 +286,7 @@ footer p {
 
 #jira_link {
   align-self: center;
-  color: #79BF74;
+  color: var(--hightlight_color);
   text-decoration: underline;
 }
 
@@ -292,8 +296,6 @@ footer p {
 
 /* Forms Style */
 #apply_main {
-  background-color: #eaedf1;
-  color: #15181c;
   padding: 0 10%;
 }
 
@@ -303,7 +305,7 @@ footer p {
 }
 
 #dream_job {
-  background-image: linear-gradient(#79BF74, #176A8A);
+  background-image: linear-gradient(var(--hightlight_color), #176A8A);
   color: transparent;
   background-clip: text;
 }
@@ -350,7 +352,7 @@ form fieldset input[type="checkbox"] {
   padding: 9px 50px;
   border: none;
   border-radius: 20px;
-  background-color: #79BF74;
+  background-color: var(--hightlight_color);
   font-weight: bold;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -361,7 +363,7 @@ form fieldset input[type="checkbox"] {
 }
 
 hr {
-  border-color: #79BF74;
+  border-color: var(--hightlight_color);
   margin-bottom: 10px;
 }
 
