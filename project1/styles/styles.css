@@ -343,8 +343,8 @@ form fieldset {
   border: none;
 }
 
-form fieldset input[type="radio"],
-form fieldset input[type="checkbox"] {
+form input[type="radio"],
+form input[type="checkbox"] {
   margin-right: 0;
 }
 
@@ -365,6 +365,7 @@ form fieldset input[type="checkbox"] {
 hr {
   border-color: var(--hightlight_color);
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 textarea {
