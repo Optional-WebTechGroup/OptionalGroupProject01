@@ -119,6 +119,35 @@ h1 {
   margin-bottom: 50px;
 }
 
+h1 {
+  text-align: center;
+}
+
+#About_us_hp{
+  text-align: center;
+}
+
+#lnk_aboutus{
+  background-color: green;
+}
+
+#company_description{
+  text-align: center;
+}
+
+#company_slogan{
+  text-align: center;
+}
+
+#setup{
+  margin: auto;
+  display: block;
+  height: 300px;
+  width: auto;
+  cursor: pointer;
+  border: 4px inset black;
+}
+
 #Jobs_main {
   padding: 0 2%;
 }
