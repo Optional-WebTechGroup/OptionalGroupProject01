@@ -23,11 +23,6 @@
   padding: 0;
 }
 
-body {
-  /* margin: 2rem;
-  outline: 2px solid green; */
-}
-
 ul {
   list-style-position: inside;
 }
@@ -44,10 +39,7 @@ header button {
 
 header {
   display: flex;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 10%;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px double black;
@@ -66,7 +58,7 @@ header {
 }
 
 .nav_links li a:hover {
-  color: #194569;
+  color: #79BF74;
   text-decoration: underline;
 }
 
@@ -74,17 +66,16 @@ header {
   padding: 9px 25px;
   border: none;
   border-radius: 50px;
-  background-color: rgba(25, 69, 105, 1);
-  color: whitesmoke;
+  background-color: #79BF74;
 }
 
 .active {
-  color: rgba(25, 69, 105, 1);
+  color: #79BF74;
   text-decoration: underline;
 }
 
 #cta:hover {
-  background-color: rgba(25, 69, 105, 0.8);
+  opacity: 0.8;
 }
 
 main {
@@ -205,6 +196,7 @@ dd {
   border: inset 4px black;
 }
 
+/* Footer style */
 footer {
   display: flex;
   flex-direction: column;
