@@ -335,12 +335,26 @@ hr {
   margin-bottom: 10px;
 }
 
-@media screen and (max-width: 700px) {
+@media (max-width: 700px) {
   .row {
     flex-direction: column;
   }
+}
 
-  header {
-    font-size: small;
+/* responsive navbar */
+@media (max-width: 1005px) {
+  .nav_links li {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo {
+    height: 50px;
+  }
+
+  header li,
+  header a,
+  header button {
+    font-size: 1em;
   }
 }
