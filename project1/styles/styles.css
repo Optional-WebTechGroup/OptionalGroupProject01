@@ -303,22 +303,33 @@ form {
 .row {
   display: flex;
   justify-content: space-around;
-  padding-top: 10px;
+  margin-top: 10px;
 }
 
 .question {
   display: flex;
   flex-direction: column;
   flex: 1;
+  margin-bottom: 10px;
 }
 
 form input,
-form select,
-form fieldset {
+form select {
   margin-right: 5%;
   font-size: 1.1em;
 }
 
+hr {
+  border-color: #79BF74;
+  margin-bottom: 10px;
+}
+
 form li {
   list-style: none;
+}
+
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
 }
