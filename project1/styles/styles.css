@@ -149,10 +149,17 @@ h1 {
   max-width: 400px
 }
 
+#Jobs_main {
+  background-color: #e3fdf9;
+  color: #15181c;
+  padding: 0 2%;
+}
+
 #admin h1 {
   text-align: center;
   margin-bottom: 10px;
   text-decoration: underline;
+  font-size: 2em;
 }
 
 #admin h2 {
