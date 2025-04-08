@@ -123,23 +123,23 @@ h1 {
   text-align: center;
 }
 
-#About_us_hp {
+#About_us_hp{
   text-align: center;
 }
 
-#lnk_aboutus {
+#lnk_aboutus{
   background-color: green;
 }
 
-#company_description {
+#company_description{
   text-align: center;
 }
 
-#company_slogan {
+#company_slogan{
   text-align: center;
 }
 
-#setup {
+#setup{
   margin: auto;
   display: block;
   height: 300px;
@@ -353,8 +353,7 @@ form {
 
 .row {
   display: flex;
-  flex-direction: space-between;
-  gap: 3%;
+  justify-content: space-around;
   margin-top: 10px;
 }
 
@@ -368,6 +367,7 @@ form {
 form input,
 form select,
 form textarea {
+  margin-right: 5%;
   font-size: 1.1em;
 }
 
@@ -386,9 +386,8 @@ form input[type="checkbox"] {
   border-radius: 20px;
   background-color: var(--hightlight_color);
   font-weight: bold;
-  margin: 20px auto;
-  display: flex;
-  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #apply:hover {
