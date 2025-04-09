@@ -194,8 +194,8 @@ h1 {
 #Jobs_main h1 {
   text-align: center;
   margin-bottom: 10px;
-  text-decoration: bold;
-  font-size: 2em;
+  text-decoration: underline;
+  font-size: 4em;
   font-family: serif;
   font-variant: initial;
 }
