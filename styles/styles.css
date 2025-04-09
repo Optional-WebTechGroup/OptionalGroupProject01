@@ -117,7 +117,7 @@ h1 {
 }
 
 /* Nikolas Popovic CSS */
-#index_header{
+#index_header {
   text-align: center;
   font-size: 4em;
 }
@@ -126,21 +126,21 @@ h1 {
   text-align: center;
 }
 
-#lnk_aboutus{
+#lnk_aboutus {
   background-color: cadetblue;
   padding: 0.5em;
   border-radius: 12px;
   cursor: pointer;
 }
 
-#job_button{
+#job_button {
   background-color: #107ab0;
   padding: 0.5em;
   border-radius: 12px;
   cursor: pointer;
 }
 
-#apply_button{
+#apply_button {
   background-color: #adebb3;
   padding: 0.5em;
   border-radius: 12px;
@@ -164,7 +164,7 @@ h1 {
   border: 4px inset black;
 }
 
-#apply_hp{
+#apply_hp {
   float: center;
   text-align: center;
   padding: 1em;
@@ -174,7 +174,7 @@ h1 {
   background-color: #79BF74;
 }
 
-#jobs_hp{
+#jobs_hp {
   float: center;
   text-align: center;
   margin: 1em;
@@ -493,18 +493,6 @@ input[type="file"] {
 #file_input:hover {
   background-color: #ccc;
 }
-
-/* #resume {
-  width: 100%;
-  height: 30px;
-  padding: 10% auto;
-  
-  border-radius: 10px;
-  text-align: center;
-  display: flex;
-  justify-self: center;
-  align-self: center;
-} */
 
 #apply {
   padding: 9px 50px;
