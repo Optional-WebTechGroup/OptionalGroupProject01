@@ -119,8 +119,10 @@ h1 {
   margin-bottom: 50px;
 }
 
-h1 {
+/* Nikolas Popovic CSS */
+#index_header{
   text-align: center;
+  font-size: 4em;
 }
 
 #About_us_hp{
@@ -128,7 +130,24 @@ h1 {
 }
 
 #lnk_aboutus{
-  background-color: green;
+  background-color: ;
+  padding: 0.5em;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+#job_button{
+  background-color: #107ab0;
+  padding: 0.5em;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+#apply_button{
+  background-color: #adebb3;
+  padding: 0.5em;
+  border-radius: 12px;
+  cursor: pointer;
 }
 
 #company_description{
@@ -150,14 +169,22 @@ h1 {
 
 #apply_hp{
   float: center;
-  text-align: left;
-  background-color:#79BF74;
-  margin-left: 10%;
+  text-align: center;
+  padding: 1em;
+  margin: 1em;
+  border: 4px inset green;
+  border-radius: 14px;
+  background-color: #79BF74;
 }
 
 #jobs_hp{
   float: center;
   text-align: center;
+  margin: 1em;
+  padding: 1em;
+  border: 4px inset blue;
+  border-radius: 14px;
+  background-color: cadetblue;
 }
 
 #Jobs_main {
