@@ -127,6 +127,11 @@ h1 {
 
 #About_us_hp {
   text-align: center;
+  padding: 1em;
+  margin: 1em;
+  border: 4px inset green;
+  border-radius: 14px;
+  background-color: #79BF74;
 }
 
 #lnk_aboutus{
@@ -156,6 +161,11 @@ h1 {
 
 #company_slogan {
   text-align: center;
+}
+
+.abt_img{
+  display: flex;
+  justify-content: space-around;
 }
 
 #setup {
