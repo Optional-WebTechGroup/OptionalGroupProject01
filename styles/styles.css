@@ -127,7 +127,16 @@ h1 {
 }
 
 #About_us_hp {
+  float: left;
   text-align: center;
+  border: 4px inset green;
+  border-radius: 14px;
+  background-color: #79BF74;
+}
+
+.abt_img{
+  display: flex;
+  justify-content: space-around;
 }
 
 #lnk_aboutus{
@@ -159,7 +168,7 @@ h1 {
   text-align: center;
 }
 
-#setup {
+#img_stp {
   margin: auto;
   display: block;
   height: 300px;
