@@ -200,8 +200,21 @@ h1 {
   font-variant: initial;
 }
 
+#Jobs_main h3 {
+  text-align: center;
+}
+
 #Jobs_main p {
   margin-bottom: 10px;
+  text-align: center;
+}
+
+#admin {
+  padding: 0 2%;
+}
+
+#Eco {
+  padding: 0 2%;
 }
 
 #admin h2 {
