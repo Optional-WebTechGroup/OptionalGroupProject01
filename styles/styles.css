@@ -209,6 +209,52 @@ h1 {
   text-align: center;
 }
 
+/* used Ai to fix the box, had issues while doing it. prompt was fix the box in this code */
+
+#admin {
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  padding: 1em;
+  margin-bottom: 1em;
+  background-color: #f9f9f9;
+}
+
+#admin {
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#admin h2 {
+  display: inline;
+}
+
+#admin[open] {
+  background-color: #eef;
+}
+
+#Eco {
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  padding: 1em;
+  margin-bottom: 1em;
+  background-color: #f9f9f9;
+}
+
+#Eco {
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#Eco h2 {
+  display: inline;
+}
+
+#Eco[open] {
+  background-color: #eef;
+}
+
 #admin {
   padding: 0 2%;
 }
