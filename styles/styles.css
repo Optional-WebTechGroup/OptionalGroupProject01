@@ -194,14 +194,27 @@ h1 {
 #Jobs_main h1 {
   text-align: center;
   margin-bottom: 10px;
-  text-decoration: underline;
+  text-decoration: bold;
   font-size: 2em;
   font-family: serif;
   font-variant: initial;
 }
 
+#Jobs_main h3 {
+  text-align: center;
+}
+
 #Jobs_main p {
   margin-bottom: 10px;
+  text-align: center;
+}
+
+#admin {
+  padding: 0 2%;
+}
+
+#eco {
+  padding: 0 2%;
 }
 
 #admin h2 {
