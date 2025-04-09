@@ -123,8 +123,9 @@ h1 {
 }
 
 #About_us_hp {
-  float: left;
   text-align: center;
+  padding: 1em;
+  margin: 1em;
   border: 4px inset green;
   border-radius: 14px;
   background-color: #79BF74;
@@ -164,7 +165,12 @@ h1 {
   text-align: center;
 }
 
-#img_stp {
+.abt_img{
+  display: flex;
+  justify-content: space-around;
+}
+
+#setup {
   margin: auto;
   display: block;
   height: 300px;
