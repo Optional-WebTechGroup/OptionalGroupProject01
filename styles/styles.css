@@ -148,6 +148,18 @@ h1 {
   border: 4px inset black;
 }
 
+#apply_hp{
+  float: center;
+  text-align: left;
+  background-color:#79BF74;
+  margin-left: 10%;
+}
+
+#jobs_hp{
+  float: center;
+  text-align: center;
+}
+
 #Jobs_main {
   padding: 0 2%;
 }
