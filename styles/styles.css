@@ -126,13 +126,13 @@ h1 {
 #About_us_hp {
   text-align: center;
   padding: 1em;
-  margin: 1em;  
+  margin: 1em;
   border: 4px inset green;
   border-radius: 14px;
   background-color: #79BF74;
 }
 
-.abt_img{
+.abt_img {
   display: flex;
   justify-content: space-around;
 }
@@ -175,7 +175,7 @@ h1 {
   text-align: center;
 }
 
-.abt_img{
+.abt_img {
   display: flex;
   justify-content: space-around;
 }
@@ -189,7 +189,7 @@ h1 {
   border: 4px inset black;
 }
 
-#apply_hp{
+#apply_hp {
   text-align: center;
   padding: 1em;
   margin: 1em;
@@ -198,7 +198,7 @@ h1 {
   background-color: #79BF74;
 }
 
-#jobs_hp{
+#jobs_hp {
   text-align: center;
   margin: 1em;
   padding: 1em;
@@ -422,14 +422,20 @@ footer p {
   font-size: 15px;
 }
 
-#jira_link {
+.footer_link {
   align-self: center;
   color: var(--hightlight_color);
   text-decoration: underline;
 }
 
-#jira_link:hover {
+.footer_link:hover {
   opacity: 0.8;
+}
+
+#footer_row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
 /* Forms Style */
