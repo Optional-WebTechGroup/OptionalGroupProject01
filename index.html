@@ -87,13 +87,42 @@
                         <p>Click the button to find out more</p>
                         <a href="jobs.html" id="job_button" class="button">Job Positions</a>
                     </div>
+                </div>
+                <div class="row">
                     <div id="apply_hp" class="column">
                         <h3>How to Apply?</h3>
                         <p>You can apply by going to the Apply page</p>
                         <a href="apply.html" id="apply_button" class="button">Apply Now!</a>
                     </div>
                 </div>
-
+            </section>
+            <hr>
+            <section>
+                <h2>Contact Us</h2>
+                <form action="">
+                    <div class="row">
+                        <div class="question">
+                            <label for="name">Name:</label>
+                            <input type="text" name="name" id="name">
+                        </div>
+                        <div class="question">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" pattern="[\w\-\.]+@([\w\-]+\.)+[\w\-]{2,4}">
+                        </div>
+                        <div class="question">
+                            <label for="phone_number">Phone:</label>
+                            <input type="text" name="phone_number" id="phone_number" minlength="8" maxlength="12"
+                                pattern="[0-9 ]{8,12}">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="question">
+                            <label for="message">Message:</label>
+                            <textarea name="message" id="message" rows="10"></textarea>
+                        </div>
+                    </div>
+                    <input id="apply" type="submit" value="Send Message">
+                </form>
             </section>
         </section>
     </main>

@@ -246,10 +246,9 @@ header {
 
 #setup {
   width: 100%;
-  /* max-width: 300px; */
+  min-width: 300px;
   height: auto;
-  align-self: center;
-  justify-self: center;
+  display: flex;
   border: 4px inset black;
 }
 
@@ -257,7 +256,6 @@ header {
   width: 100%;
   text-align: center;
   padding: 1em;
-  margin: 1em;
   border: 4px inset green;
   border-radius: 14px;
   background-color: #79BF74;
@@ -266,7 +264,6 @@ header {
 #jobs_hp {
   text-align: center;
   width: 100%;
-  margin: 1em;
   padding: 1em;
   border: 4px inset blue;
   border-radius: 14px;
