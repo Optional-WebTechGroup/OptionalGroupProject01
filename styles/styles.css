@@ -38,6 +38,7 @@ h1 {
 }
 
 #hero {
+  /* image from https://stockcake.com/i/glowing-green-network_1235242_261899 */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hero_background_image.jpg");
   height: 50vh;
   width: 100%;
@@ -59,6 +60,10 @@ h1 {
 
 #hero_tagline {
   font-size: 2em;
+}
+
+#hero h1 {
+  padding-top: 0;
 }
 
 .column {
@@ -134,6 +139,16 @@ header {
 
 #cta:hover {
   opacity: 0.8;
+}
+
+#about_main {
+  margin: 0 10%;
+}
+
+#team {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 /* Oliver css*/
@@ -252,7 +267,7 @@ header {
   border: 4px inset black;
 }
 
-#apply_hp {
+.green_section {
   width: 100%;
   text-align: center;
   padding: 1em;
@@ -261,7 +276,7 @@ header {
   background-color: #79BF74;
 }
 
-#jobs_hp {
+.blue_section {
   text-align: center;
   width: 100%;
   padding: 1em;
@@ -510,7 +525,7 @@ footer p {
   padding: 0 10%;
 }
 
-#apply_main h1 {
+h1 {
   font-size: 4em;
   padding-top: 20px;
 }
@@ -653,7 +668,7 @@ textarea {
 
   #cta {
     font-size: 18px;
-    margin-top: 5px;
+    margin-top: 10px;
     padding: 5px 50px;
   }
 
