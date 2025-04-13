@@ -126,7 +126,7 @@ h1 {
 #About_us_hp {
   text-align: center;
   padding: 1em;
-  margin: 1em;
+  margin: 1em;  
   border: 4px inset green;
   border-radius: 14px;
   background-color: #79BF74;
@@ -140,6 +140,9 @@ h1 {
 #lnk_aboutus {
   background-color: cadetblue;
   padding: 0.5em;
+  border: 2px inset black;
+  color: black;
+  text-decoration: none;
   border-radius: 12px;
   cursor: pointer;
 }
@@ -147,6 +150,9 @@ h1 {
 #job_button {
   background-color: #107ab0;
   padding: 0.5em;
+  border: 2px inset black;
+  color: black;
+  text-decoration: none;
   border-radius: 12px;
   cursor: pointer;
 }
@@ -154,6 +160,9 @@ h1 {
 #apply_button {
   background-color: #adebb3;
   padding: 0.5em;
+  border: 2px inset black;
+  color: black;
+  text-decoration: none;
   border-radius: 12px;
   cursor: pointer;
 }
@@ -180,8 +189,7 @@ h1 {
   border: 4px inset black;
 }
 
-#apply_hp {
-  float: center;
+#apply_hp{
   text-align: center;
   padding: 1em;
   margin: 1em;
@@ -190,8 +198,7 @@ h1 {
   background-color: #79BF74;
 }
 
-#jobs_hp {
-  float: center;
+#jobs_hp{
   text-align: center;
   margin: 1em;
   padding: 1em;
@@ -207,7 +214,6 @@ h1 {
 #Jobs_main h1 {
   text-align: center;
   margin-bottom: 10px;
-  text-decoration: underline;
   font-size: 4em;
   font-family: serif;
   font-variant: initial;
