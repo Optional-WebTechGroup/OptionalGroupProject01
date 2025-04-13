@@ -150,7 +150,7 @@ h1 {
   background-color: #107ab0;
   padding: 0.5em;
   border: 2px inset black;
-  color: black;
+  color: white;
   text-decoration: none;
   border-radius: 12px;
   cursor: pointer;
@@ -167,7 +167,7 @@ h1 {
 }
 
 #company_description {
-  text-align: center;
+  text-align: left;
 }
 
 #company_slogan {
@@ -204,6 +204,13 @@ h1 {
   border: 4px inset blue;
   border-radius: 14px;
   background-color: cadetblue;
+}
+
+#description_cpny{
+  border-top: 4px double green;
+  border-bottom: 4px double green;
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
 #Jobs_main {
