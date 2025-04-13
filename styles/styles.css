@@ -65,6 +65,7 @@ h1 {
 .column {
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 #index_main {
@@ -619,6 +620,10 @@ textarea {
     flex-direction: column;
   }
 
+  .column {
+    margin-top: 10px;
+  }
+
   #footer_nav {
     flex-direction: column;
   }
@@ -648,10 +653,8 @@ textarea {
     margin-top: 5px;
     padding: 5px 50px;
   }
-}
 
-/* @media (max-width: 1250px) {
   #responsive {
     flex-direction: column;
   }
-} */
+}
