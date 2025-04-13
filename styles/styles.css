@@ -9,10 +9,6 @@
 ============================================================
   Project: Project Part 1
   Dependencies: index.html, jobs.html, apply.html, about.html
-    ------------------------------------------------------------
-  Changelog:
-    - Latest Chnage: [Date]: [Change description]
-    - What needs to be done: [Date]: [Change description]
 ============================================================
 */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
@@ -121,7 +117,7 @@ h1 {
 }
 
 /* Nikolas Popovic CSS */
-#index_header{
+#index_header {
   text-align: center;
   font-size: 4em;
 }
@@ -135,7 +131,12 @@ h1 {
   background-color: #79BF74;
 }
 
-#lnk_aboutus{
+.abt_img{
+  display: flex;
+  justify-content: space-around;
+}
+
+#lnk_aboutus {
   background-color: cadetblue;
   padding: 0.5em;
   border: 2px inset black;
@@ -145,7 +146,7 @@ h1 {
   cursor: pointer;
 }
 
-#job_button{
+#job_button {
   background-color: #107ab0;
   padding: 0.5em;
   border: 2px inset black;
@@ -155,7 +156,7 @@ h1 {
   cursor: pointer;
 }
 
-#apply_button{
+#apply_button {
   background-color: #adebb3;
   padding: 0.5em;
   border: 2px inset black;
@@ -222,8 +223,42 @@ h1 {
 }
 
 #Jobs_main p {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   text-align: center;
+}
+
+/* used Ai to fix the box, had issues while doing it. prompt was fix the box in this code */
+
+#admin {
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  padding: 1em;
+  margin-bottom: 1em;
+  background-color: #f9f9f9;
+}
+
+#admin h2 {
+  display: inline;
+}
+
+#admin[open] {
+  background-color: #eef;
+}
+
+#Eco {
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  padding: 1em;
+  margin-bottom: 1em;
+  background-color: #f9f9f9;
+}
+
+#Eco h2 {
+  display: inline;
+}
+
+#Eco[open] {
+  background-color: #eef;
 }
 
 #admin {
@@ -479,18 +514,6 @@ input[type="file"] {
 #file_input:hover {
   background-color: #ccc;
 }
-
-/* #resume {
-  width: 100%;
-  height: 30px;
-  padding: 10% auto;
-  
-  border-radius: 10px;
-  text-align: center;
-  display: flex;
-  justify-self: center;
-  align-self: center;
-} */
 
 #apply {
   padding: 9px 50px;
