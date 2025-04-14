@@ -11,23 +11,29 @@
   Dependencies: index.html, jobs.html, apply.html, about.html
 ============================================================
 */
+
+/* Importing the Google font 'Montserrat' for consistent typography */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+/* Defining custom color variables */
 :root {
   --hightlight_color: #79BF74;
 }
 
+/* Resetting padding and margin for all elements to ensure uniform layout */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/* General body styles */
 body {
   background-color: #eaedf1;
   color: #15181c;
 }
 
+/* Styling for unordered lists */
 ul {
   list-style-position: inside;
 }
@@ -45,6 +51,7 @@ ul {
   position: relative;
 }
 
+/* Styling for the hero text section */
 #hero_text {
   text-align: center;
   position: absolute;
@@ -54,6 +61,7 @@ ul {
   transform: translate(-50%, -50%);
   color: white;
 }
+
 
 #hero_tagline {
   font-size: 2em;
@@ -147,7 +155,7 @@ header {
 .Class_Details {
   display: flex;
   justify-content: space-around;
-  flex-direction: row-reverse;
+  flex-direction: row-reverse; /* reveresed html order on page*/
   margin-bottom: 50px;
 }
 
@@ -155,10 +163,11 @@ header {
   font-size: x-large;
 }
 
+/* created flexbox properties */
 .Member_Details {
   display: flex;
   justify-content: space-around;
-  flex-direction: row-reverse;
+  flex-direction: row-reverse; /* reveresed html order on page*/
   margin-bottom: 50px;
 }
 
@@ -166,6 +175,7 @@ header {
   font-size: large;
 }
 
+/* created flexbox properties */
 .Member_Styles {
   display: flex;
   justify-content: space-around;
