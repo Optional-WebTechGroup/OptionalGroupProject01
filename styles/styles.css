@@ -32,10 +32,6 @@ ul {
   list-style-position: inside;
 }
 
-h1 {
-  text-align: center;
-  font-size: 4em;
-}
 
 #hero {
   /* image from https://stockcake.com/i/glowing-green-network_1235242_261899 */
@@ -527,6 +523,7 @@ footer p {
 
 h1 {
   font-size: 4em;
+  text-align: center;
   padding-top: 20px;
 }
 
