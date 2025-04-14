@@ -32,10 +32,7 @@ ul {
   list-style-position: inside;
 }
 
-h1 {
-  text-align: center;
-  font-size: 4em;
-}
+/* hero section with background image and text title at the center */
 
 #hero {
   /* image from https://stockcake.com/i/glowing-green-network_1235242_261899 */
@@ -66,11 +63,6 @@ h1 {
   padding-top: 0;
 }
 
-.column {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
 
 #index_main {
   margin: 0 10%;
@@ -527,6 +519,7 @@ footer p {
 
 h1 {
   font-size: 4em;
+  text-align: center;
   padding-top: 20px;
 }
 
@@ -545,11 +538,18 @@ form {
   padding: 2% 0;
 }
 
+/* css styling for the flex row and column */
 .row {
   display: flex;
   justify-content: space-around;
   gap: 3%;
   margin-top: 10px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .question {
@@ -599,7 +599,6 @@ input[type="file"] {
   text-align: center;
   font-size: 12px;
 }
-
 
 #file_input:hover {
   background-color: #ccc;
