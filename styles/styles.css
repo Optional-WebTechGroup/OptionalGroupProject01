@@ -37,12 +37,14 @@ h1 {
   font-size: 4em;
 }
 
+/* css for index page header + background image for requirements */
 #hero {
   /* image from https://stockcake.com/i/glowing-green-network_1235242_261899 */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hero_background_image.jpg");
   height: 50vh;
   width: 100%;
   background-position: center;
+  /* ensures that the image fills the gap without repeating */
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -50,10 +52,12 @@ h1 {
 
 #hero_text {
   text-align: center;
+  /* ensures that the text stays in the center position when the page is flexed */
   position: absolute;
   top: 50%;
   left: 50%;
   width: 100%;
+  /* move text in x and y direction */
   transform: translate(-50%, -50%);
   color: white;
 }
@@ -67,6 +71,7 @@ h1 {
 }
 
 .column {
+  /* ensures that it looks good when the page size is changed */
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -195,11 +200,13 @@ header {
   background-color: #79BF74;
 }
 
+
 .abt_img {
   display: flex;
   justify-content: space-around;
 }
 
+/* button for about us */
 #link_about_us {
   align-self: center;
   width: 125px;
